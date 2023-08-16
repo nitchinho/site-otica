@@ -1,6 +1,8 @@
+import './style.css'
+
 export default function SecaoCapa () {
     return (
-        <section>
+        <section className="secao-capa">
             <div>
                 <p>Precos Baixos em</p>
                 <h1>ÓCULOS DE GRAU E DE SOL</h1>
