@@ -1,19 +1,17 @@
 import './topo.css'
 
-export default function Top() {
-    return (
-        <header>
+export default function Topo() {
+  return (
+    <header>
+        <div className='limitar-secao'>
+          <img src='assets/logo.png' alt='imagem de um óculos à direita e o nome da ótica à esquerda' />
 
-            <div className = "limitar-secao">
-                <img className="topo-logo" src ='assets/logo.png'   alt="logotipo" />
-
-                <nav className="topo-links">
-                    <a href='#produtos'>PRODUTOS</a>
-                    <a href='#sobre'>SOBRE</a>
-                    <a href='#contato'>CONTATO</a>
-                </nav>
-            </div>
-
-        </header>
-    )
+          <nav>
+            <a href='#produtos'>PRODUTOS</a>
+            <a href='#sobre'>SOBRE</a>
+            <a href='#contato'>CONTATO</a>
+          </nav>
+        </div>
+      </header>
+  )
 }

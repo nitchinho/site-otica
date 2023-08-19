@@ -10,11 +10,11 @@ body {
 
 .limitar-secao {
     max-width: 1024px;
-    margin: 0 0 auto auto;
+    margin: 0 auto;
 }
 
-h4 {
+h3 {
+    margin: 0;
     text-transform: uppercase;
     font-size: 36px;
-    margin: 0;
 }
